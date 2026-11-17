@@ -26,6 +26,7 @@
       none: 'Dazu habe ich in unseren Dokumenten nichts gefunden. Versuch es mit anderen Begriffen, z. B. einer Tarifziffer.',
       error: 'Da ist etwas schiefgelaufen. Bitte versuch es nochmals.',
       limit: 'Für heute sind die Fragen aufgebraucht. Bitte versuch es morgen wieder.',
+      uncited: 'Hinweis: Zu dieser Antwort konnten keine Textstellen zugeordnet werden. Bitte im Dokument prüfen.',
       disclaimer: 'Keine Rechtsberatung. Massgebend ist der Vertragstext. Fragen werden anonym gespeichert, um die FAQ zu verbessern. Bitte keine Patientendaten eingeben.',
       starters: ['Wie wird die Wechselzeit abgerechnet?', 'Was gilt neu für Leistungen in Abwesenheit?', 'Darf ich Domizil im Altersheim abrechnen?'],
     },
@@ -41,6 +42,7 @@
       none: 'Je n’ai rien trouvé à ce sujet dans nos documents. Essayez d’autres termes, p. ex. un numéro de position tarifaire.',
       error: 'Une erreur s’est produite. Veuillez réessayer.',
       limit: 'Le nombre de questions pour aujourd’hui est atteint. Veuillez réessayer demain.',
+      uncited: 'Remarque : aucun passage n’a pu être associé à cette réponse. Veuillez vérifier dans le document.',
       disclaimer: 'Pas de conseil juridique. Seul le texte contractuel fait foi. Les questions sont enregistrées de manière anonyme pour améliorer la FAQ. Merci de ne saisir aucune donnée de patient.',
       starters: ['Comment facturer le temps de changement ?', 'Qu’est-ce qui change pour les prestations en l’absence du patient ?', 'Puis-je facturer le domicile en EMS ?'],
     },
@@ -56,6 +58,7 @@
       none: 'Non ho trovato nulla a riguardo nei nostri documenti. Provi con altri termini, ad es. un numero di posizione tariffale.',
       error: 'Si è verificato un errore. Riprovi, per favore.',
       limit: 'Il numero di domande per oggi è esaurito. Riprovi domani.',
+      uncited: 'Nota: non è stato possibile associare passaggi a questa risposta. La verifichi nel documento.',
       disclaimer: 'Nessuna consulenza legale. Fa stato il testo contrattuale. Le domande vengono salvate in forma anonima per migliorare le FAQ. Non inserisca dati dei pazienti.',
       starters: ['Come si fattura il tempo di cambio?', 'Cosa cambia per le prestazioni in assenza del paziente?', 'Posso fatturare il domicilio in casa per anziani?'],
     },
@@ -102,6 +105,7 @@
   textarea:focus{border-color:#000080;box-shadow:0 0 0 3px rgba(0,0,128,.1)}
   button.send{width:42px;height:42px;border-radius:50%;border:0;background:#000080;color:#9ff18b;cursor:pointer;flex:0 0 auto;display:flex;align-items:center;justify-content:center}
   button.send:disabled{opacity:.4;cursor:default}
+  .warn{font-size:12.5px;color:#7a4a00;background:#fff6e0;border-radius:8px;padding:6px 9px;margin-top:8px !important}
   .foot{font-size:11px;color:#6b7096;padding:0 14px 10px;background:#fff}
   @media (max-width:560px){.wrap{border-radius:12px;height:${Math.max(460, HEIGHT - 60)}px}.bubble{max-width:94%}}
   `;
@@ -201,7 +205,7 @@
       var wait = add('bot', '<span class="typing"><i></i><i></i><i></i></span>');
       request(q).then(function (d) {
         var id = 'm' + (++count);
-        var html = d.noSource || !d.segments.length ? '<p>' + esc(T.none) + '</p>' : renderAnswer(d.segments) + renderSources(d.sources, id);
+        var html = d.noSource || !d.segments.length ? '<p>' + esc(T.none) + '</p>' : renderAnswer(d.segments) + (d.uncited ? '<p class="warn">' + esc(T.uncited) + '</p>' : '') + renderSources(d.sources, id);
         wait.querySelector('.bubble').innerHTML = html;
         history.push({ role: 'user', content: q });
         history.push({ role: 'assistant', content: (d.segments || []).map(function (s) { return s.text; }).join('') || T.none });
