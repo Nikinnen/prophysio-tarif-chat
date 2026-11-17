@@ -1,0 +1,17 @@
+{
+  "name": "prophysio-tarif-chat",
+  "version": "1.0.0",
+  "description": "PROphysio Tarif-Chat: Fragen zum KVG-Tarif mit Quellen aus dem Archiv",
+  "scripts": {
+    "build": "node scripts/build-index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9",
+    "cheerio": "^1.2.0",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "type": "module",
+  "private": true
+}

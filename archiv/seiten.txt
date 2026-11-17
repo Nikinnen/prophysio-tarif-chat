@@ -1,0 +1,8 @@
+# Website-Seiten, die der Chat durchsuchen soll – eine URL pro Zeile.
+# Französische / italienische Seiten einfach mit ihrer /fr/… bzw. /it/…-URL eintragen.
+# Anker: im Odoo-Editor beim Block «Anker» setzen – der Chat verlinkt dann direkt auf den Abschnitt.
+#
+# Beispiel (das # entfernen, sobald die Seite online ist):
+# https://www.prophysioverband.ch/tarif
+# https://www.prophysioverband.ch/tarif/faq
+# https://www.prophysioverband.ch/fr/tarif

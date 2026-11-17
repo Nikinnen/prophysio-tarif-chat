@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Widget darf von der Odoo-Website geladen werden
+[[headers]]
+  for = "/widget.js"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/archiv/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

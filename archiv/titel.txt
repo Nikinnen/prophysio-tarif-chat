@@ -1,0 +1,9 @@
+# Anzeigenamen der Dokumente (optional).
+# Format:  dateiname.pdf | Titel, wie er im Chat erscheint | optional: Link zum Original
+# Ohne Eintrag wird der Dateiname als Titel verwendet.
+# Mit Link zum Original verweist der Chat dorthin, statt eine Kopie zu verlinken
+# (sinnvoll für Dokumente von Dritten, z. B. Vertragsdokumente).
+
+PROphysio_Leitfaden_KVG.pdf | PROphysio Leitfaden Tarif KVG
+tarifstruktur-kvg-anhang-1a.pdf | Tarifstruktur KVG (Anhang 1a zum Tarifstrukturvertrag)
+merkblatt-einfuehrung-struktur-kvg.pdf | Merkblatt Einführung Tarifstruktur KVG
