@@ -3,7 +3,7 @@
 //   https://<deine-seite>.netlify.app/api/fragen?token=<ADMIN_TOKEN>&monat=2027-01
 import { getStore } from '@netlify/blobs';
 
-const COLS = ['zeit', 'sprache', 'frage', 'antwort', 'quellen', 'ohne_quelle', 'seite', 'ms'];
+const COLS = ['zeit', 'sprache', 'frage', 'antwort', 'feedback', 'kommentar', 'quellen', 'ohne_quelle', 'seite', 'ms'];
 const esc = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
 
 export default async (req) => {

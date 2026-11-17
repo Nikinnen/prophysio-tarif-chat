@@ -71,13 +71,19 @@ Auf französischen und italienischen Seiten erscheint der Chat automatisch in de
 - Klare Zwischentitel (z. B. «4.1 Kapitel 100 – …») machen die Quellenangaben präziser.
 - Entwürfe mit Notizen wie «[PRÜFEN]» nicht hochladen, sonst zitiert der Chat sie.
 
-## Gestellte Fragen auswerten
-`https://<name>.netlify.app/api/fragen?token=<ADMIN_TOKEN>` lädt alle Fragen als CSV (für Excel) herunter. Mit `&monat=2027-01` nur einen Monat. Gespeichert werden Frage, Antwort, Quellen, Sprache und Seite, **ohne IP und ohne Namen**. Die Spalte `ohne_quelle` zeigt, wo das Archiv noch Lücken hat. Das sind gute Kandidaten für neue FAQ-Einträge.
+## Gestellte Fragen und Feedback auswerten
+`https://<name>.netlify.app/api/fragen?token=<ADMIN_TOKEN>` lädt alle Fragen als CSV (für Excel) herunter. Mit `&monat=2027-01` nur einen Monat. Gespeichert werden Frage, Antwort, Quellen, Sprache und Seite, **ohne IP und ohne Namen**.
+
+- Spalte `feedback`: `gut` oder `schlecht` (Daumen unter der Antwort), `kommentar`: was laut Nutzer gefehlt hat.
+- Spalte `ohne_quelle`: Hier hat das Archiv noch Lücken. Das sind gute Kandidaten für neue FAQ-Einträge.
+
+Tipp: In Excel nach `feedback = schlecht` filtern und diese Antworten zuerst anschauen.
 
 ## Wie es funktioniert
 1. Die Frage wird in Suchbegriffe auf DE/FR/IT umformuliert. So findet eine französische Frage auch deutsche Dokumente, und Rückfragen wie «und bei Kindern?» werden verstanden.
 2. Eine Volltextsuche wählt die 12 passendsten Abschnitte aus dem Archiv.
 3. Claude antwortet nur aus diesen Abschnitten und belegt jede Aussage (Zitierfunktion der API). Findet die Suche nichts, wird gar keine KI gefragt.
+4. Die Antwort wird Wort für Wort an den Browser gestreamt. Gestreamte Funktionen dürfen bei Netlify bis 60 Sekunden laufen.
 
 Kosten: mit Haiku ca. 0.5–1 Rappen pro Frage, mit Sonnet ca. 2–4 Rappen.
 
