@@ -1,9 +1,18 @@
 # Anzeigenamen der Dokumente (optional).
 # Format:  dateiname.pdf | Titel, wie er im Chat erscheint | optional: Link zum Original
 # Ohne Eintrag wird der Dateiname als Titel verwendet.
-# Mit Link zum Original verweist der Chat dorthin, statt eine Kopie zu verlinken
-# (sinnvoll für Dokumente von Dritten, z. B. Vertragsdokumente).
+# Mit Link zum Original verweist der Chat dorthin statt auf die Kopie im Archiv.
 
+# --- PROphysio ---
 PROphysio_Leitfaden_KVG.pdf | PROphysio Leitfaden Tarif KVG
-tarifstruktur-kvg-anhang-1a.pdf | Tarifstruktur KVG (Anhang 1a zum Tarifstrukturvertrag)
 merkblatt-einfuehrung-struktur-kvg.pdf | Merkblatt Einführung Tarifstruktur KVG
+
+# --- Tarifstruktur (Anhang 1a) ---
+tarifstruktur_de.pdf | Tarifstruktur KVG Physiotherapie (Anhang 1a zum Tarifstrukturvertrag) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a01a-struktur-physiotherapeutische-leistungen-kvg.pdf
+tarifstruktur_fr.pdf | Structure tarifaire LAMal physiothérapie (annexe 1a à la convention de structure tarifaire) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260227_fr_struktur-physiotherapeutische_leistungen_kvg.pdf
+tarifstruktur_it.pdf | Struttura tariffale LAMal fisioterapia (allegato 1a alla convenzione sulla struttura tariffale) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260611_it_a01a-struktur-physiotherapeutische-leistungen-kvg-1.pdf
+
+# --- Tarifstrukturvertrag ---
+tarifstrukturvertrag_de.pdf | Tarifstrukturvertrag KVG Physiotherapie | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a_tarifstrukturvertrag_kvg_physiotherapie_v1_sig.pdf
+tarifstrukturvertrag_fr.pdf | Convention de structure tarifaire relative aux prestations de physiothérapie ambulatoire | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a_tarifstrukturvertrag_kvg_physiotherapie_v1.pdf
+tarifstrukturvertrag_it.pdf | Convenzione sulla struttura tariffale relativa alle prestazioni ambulatoriali di fisioterapia | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a_tarifstrukturvertrag_kvg_physiotherapie_v1.pdf
