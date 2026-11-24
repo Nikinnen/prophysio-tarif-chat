@@ -2,17 +2,45 @@
 # Format:  dateiname.pdf | Titel, wie er im Chat erscheint | optional: Link zum Original
 # Ohne Eintrag wird der Dateiname als Titel verwendet.
 # Mit Link zum Original verweist der Chat dorthin statt auf die Kopie im Archiv.
-
+# Neue Version (z. B. _v2): neue Datei hochladen, alte löschen, hier Dateiname und Link anpassen.
+ 
 # --- PROphysio ---
 PROphysio_Leitfaden_KVG.pdf | PROphysio Leitfaden Tarif KVG
 merkblatt-einfuehrung-struktur-kvg.pdf | Merkblatt Einführung Tarifstruktur KVG
-
+ 
 # --- Tarifstruktur (Anhang 1a) ---
 tarifstruktur_de.pdf | Tarifstruktur KVG Physiotherapie (Anhang 1a zum Tarifstrukturvertrag) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a01a-struktur-physiotherapeutische-leistungen-kvg.pdf
 tarifstruktur_fr.pdf | Structure tarifaire LAMal physiothérapie (annexe 1a à la convention de structure tarifaire) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260227_fr_struktur-physiotherapeutische_leistungen_kvg.pdf
 tarifstruktur_it.pdf | Struttura tariffale LAMal fisioterapia (allegato 1a alla convenzione sulla struttura tariffale) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260611_it_a01a-struktur-physiotherapeutische-leistungen-kvg-1.pdf
-
+ 
 # --- Tarifstrukturvertrag ---
 tarifstrukturvertrag_de.pdf | Tarifstrukturvertrag KVG Physiotherapie | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a_tarifstrukturvertrag_kvg_physiotherapie_v1_sig.pdf
 tarifstrukturvertrag_fr.pdf | Convention de structure tarifaire relative aux prestations de physiothérapie ambulatoire | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a_tarifstrukturvertrag_kvg_physiotherapie_v1.pdf
 tarifstrukturvertrag_it.pdf | Convenzione sulla struttura tariffale relativa alle prestazioni ambulatoriali di fisioterapia | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a_tarifstrukturvertrag_kvg_physiotherapie_v1.pdf
+ 
+# --- Anhänge 1b–7 · Deutsch ---
+2026-0225_a01b_erlaeuterungsdokument_zur_tarifstruktur_v1.pdf | Erläuterungsdokument zur Tarifstruktur (Anhang 1b) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a01b_erlaeuterungsdokument_zur_tarifstruktur_v1.pdf
+2026-0225_a02_kostenneutralitaetskonzept_59c_kvv_v1.pdf | Kostenneutralitätskonzept nach Art. 59c KVV (Anhang 2) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a02_kostenneutralitaetskonzept_59c_kvv_v1.pdf
+2026-0225_a03_kostenmonitoringkonzept_nach_47c_kvg_v1.pdf | Kostenmonitoringkonzept nach Art. 47c KVG (Anhang 3) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a03_kostenmonitoringkonzept_nach_47c_kvg_v1.pdf
+2026-0225_a04_datengrundlage_und_messgroessen_v1.pdf | Datengrundlage und Messgrössen (Anhang 4) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a04_datengrundlage_und_messgroessen_v1.pdf
+2026-0225_a05_vereinbarung_ueber_die_monitoringkommission_moko_v1.pdf | Vereinbarung über die Monitoringkommission MoKo (Anhang 5) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a05_vereinbarung_ueber_die_monitoringkommission_moko_v1.pdf
+2026-0225_a06_vereinbarung_ueber_die_tarifstrukturkomission_tsk_v1.pdf | Vereinbarung über die Tarifstrukturkommission TSK (Anhang 6) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a06_vereinbarung_ueber_die_tarifstrukturkomission_tsk_v1.pdf
+2026-0225_a07_vereinbarung_ueber_die_paritaetische_vertrauenskommission_pvk_v1.pdf | Vereinbarung über die Paritätische Vertrauenskommission PVK (Anhang 7) | https://physioswiss.ch/wp-content/uploads/sites/1/2026-0225_a07_vereinbarung_ueber_die_paritaetische_vertrauenskommission_pvk_v1.pdf
+ 
+# --- Anhänge 1b–7 · Français ---
+260225_fr_a01b_erlaeuterungsdokument_zur_tarifstruktur_v1.pdf | Document explicatif relatif à la structure tarifaire (annexe 1b) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a01b_erlaeuterungsdokument_zur_tarifstruktur_v1.pdf
+260225_fr_a02_kostenneutralitaetskonzept_59c_kvv_v1.pdf | Concept de neutralité des coûts selon l’art. 59c OAMal (annexe 2) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a02_kostenneutralitaetskonzept_59c_kvv_v1.pdf
+260225_fr_a03-kostenmonitoringkonzept_nach_47c_kvg_v1.pdf | Concept de monitorage des coûts selon l’art. 47c LAMal (annexe 3) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a03-kostenmonitoringkonzept_nach_47c_kvg_v1.pdf
+260225_fr_a04_datengrundlage-und-messgroessen_v1.pdf | Base de données et grandeurs de mesure (annexe 4) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a04_datengrundlage-und-messgroessen_v1.pdf
+260225_fr_a05_vereinbarung_ueber_die_monitoringkommission_moko_v1.pdf | Convention relative à la commission de monitorage (annexe 5) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a05_vereinbarung_ueber_die_monitoringkommission_moko_v1.pdf
+260225_fr_a06_vereinbarung_ueber_die_tarifstrukturkomission_tsk_v1.pdf | Convention relative à la commission de la structure tarifaire (annexe 6) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a06_vereinbarung_ueber_die_tarifstrukturkomission_tsk_v1.pdf
+260225_fr_a07_vereinbarung_ueber_die_paritaetische_vertrauenskommission_pvk_v1.pdf | Convention relative à la commission paritaire de confiance (annexe 7) | https://physioswiss.ch/fr/wp-content/uploads/sites/1/260225_fr_a07_vereinbarung_ueber_die_paritaetische_vertrauenskommission_pvk_v1.pdf
+ 
+# --- Anhänge 1b–7 · Italiano ---
+260225_it_a01b_erlaeuterungsdokument_zur_tarifstruktur_v1.pdf | Documento esplicativo sulla struttura tariffale (allegato 1b) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a01b_erlaeuterungsdokument_zur_tarifstruktur_v1.pdf
+260225_it_a02_kostenneutralitaetskonzept_59c_kvv_v1.pdf | Concetto di neutralità dei costi secondo l’art. 59c OAMal (allegato 2) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a02_kostenneutralitaetskonzept_59c_kvv_v1.pdf
+260225_it_a03_kostenmonitoringkonzept_nach_47c_kvg_v1.pdf | Concetto di monitoraggio dei costi secondo l’art. 47c LAMal (allegato 3) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a03_kostenmonitoringkonzept_nach_47c_kvg_v1.pdf
+260225_it_a04_datengrundlage_und_messgroessen_v1.pdf | Base di dati e grandezze di misura (allegato 4) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a04_datengrundlage_und_messgroessen_v1.pdf
+260225_it_a05_vereinbarung_ueber_die_monitoringkommission_moko_v1.pdf | Convenzione sulla commissione di monitoraggio (allegato 5) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a05_vereinbarung_ueber_die_monitoringkommission_moko_v1.pdf
+260225_it_a06_vereinbarung_ueber_die_tarifstrukturkomission_tsk_v1.pdf | Convenzione sulla commissione della struttura tariffale (allegato 6) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a06_vereinbarung_ueber_die_tarifstrukturkomission_tsk_v1.pdf
+260225_it_a07_vereinbarung_ueber_die_paritaetische_vertrauenskommission_pvk_v1.pdf | Convenzione sulla commissione paritetica di fiducia (allegato 7) | https://physioswiss.ch/it/wp-content/uploads/sites/1/260225_it_a07_vereinbarung_ueber_die_paritaetische_vertrauenskommission_pvk_v1.pdf
